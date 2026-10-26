@@ -1,0 +1,17 @@
+[project]
+name = "luvparse"
+version = "0.1.0"
+description = "A low-cost PDF parser that emits structured markdown, scored on ParseBench"
+requires-python = ">=3.10"
+license = { text = "AGPL-3.0-or-later" }
+dependencies = [
+  "pymupdf>=2.0",
+  "pymupdf4llm>=2.0",
+  "httpx>=0.27",
+  "python-dotenv>=1.0",
+  "Pillow>=10.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

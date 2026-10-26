@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.venv-*/
+venv/
+.pytest_cache/
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Benchmark data and results (download or generate locally)
+benchmarks/parsebench/data/
+benchmarks/parsebench/data_500/
+benchmarks/parsebench/output*/
+benchmarks/parsebench/*.zip
+benchmarks/parsebench/spend_so_far.txt
